@@ -2,13 +2,13 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🕹️ Game",
+      "title": "React + Phaser 创建网页2D小游戏",
+      "description": "边写游戏，边锻炼React基本功",
+      "tags": ["Practice", "Web Game"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
+        "src": "../../images/phaser_logo.png",
+        "alt": "phaser logo",
         "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
       },
       "links": [
@@ -24,13 +24,13 @@
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "🤖 GPT",
+      "title": "使用检索增强GPT",
+      "description": "利用向量数据库达成所谓的检索增强，使得GPT拥有某一领域的专精知识，提供更加详细专业的回答",
+      "tags": ["Practice"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/chatgpt_logo.png",
+        "alt": "chatgpt logo"
       },
       "links": [
         {

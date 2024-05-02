@@ -1,10 +1,10 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "name": "Kiameow",
+  "email": "zhang_lumi@foxmail.com",
+  "description": "有任何问题与想法，都欢迎与我交流！",
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/kiameow.jpg",
+    "alt": "avatar"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],

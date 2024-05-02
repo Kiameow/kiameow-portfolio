@@ -1,26 +1,24 @@
 #!/bin/bash
 
 articles_dir="./content/articles/"
-
-# 循环处理所有输入的参数
+current_time=$(date +"%Y-%m-%d")
 for title in "$@"; do
     dest="${articles_dir}${title}"
 
-    # 检查文件夹是否已经存在
+    # check the existing folder
     if [ -d "$dest" ]; then
         echo "Folder '$dest' already exists. Skipping."
         continue
     fi
 
-    # 创建文件夹
     mkdir -p "$dest"
 
-    # index.md
+    # content in index.md
     cat << EOF >> "${dest}/index.md"
 ---
 title: "${title}"
 description: "This description will be used for the article listing and search results on Google."
-date: "xxx"
+date: "${current_time}"
 banner:
   src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
   alt: "image description"

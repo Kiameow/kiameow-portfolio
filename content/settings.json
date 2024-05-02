@@ -1,19 +1,17 @@
 {
   "siteMetadata": {
-    "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "language": "zh",
+    "siteUrl": "https://kiameow.top",
+    "title": "Kiameow's Blog",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "description": "Kiameow's blog supported by portfolio minimal gatsby",
+    "author": "Kiameow",
+    "avatar": "../content/images/kiameow.jpg",
+    "bio": "dev in simplicity",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
+      "github": "https://github.com/Kiameow",
       "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "mail": "mailto:zhang_lumi@foxmail.com"
     }
   },
   "siteConfiguration": {
