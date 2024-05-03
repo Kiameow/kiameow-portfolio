@@ -7,27 +7,28 @@ banner:
   alt: "image description"
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
-  - "Setup"
-  - "Tutorial"
+  - "博客"
+  - "教程"
 keywords:
-  - "Example"
+  - "云服务器"
+  - "博客搭建"
 ---
 
 本文将涉及博客搭建的几乎所有内容，按时间排序，步骤可分为
-1. 本地电脑部署 
-2. 购买域名
-3. 给域名备案 
-4. 购买服务器
-5. 配置服务器 
-6. 配置git
-7. 服务器端部署hexo 
-8. [给网站添加备案信息](#给网站添加备案信息)
-9. [给域名添加证书实现https](#给域名添加证书实现https)
 
+1. 本地电脑部署
+2. 购买域名
+3. 给域名备案
+4. 购买服务器
+5. 配置服务器
+6. 配置 git
+7. 服务器端部署 hexo
+8. [给网站添加备案信息](#给网站添加备案信息)
+9. [给域名添加证书实现 https](#给域名添加证书实现https)
 
 ## 第一步至第六步请参照下方链接
-[只需5步！在轻量应用服务器部署Hexo博客](https://developer.aliyun.com/article/815625#slide-4)
 
+[只需 5 步！在轻量应用服务器部署 Hexo 博客](https://developer.aliyun.com/article/815625#slide-4)
 
 ## 给域名备案
 
@@ -38,9 +39,10 @@ keywords:
 核心三要素就是 —— 遵守规范、体现网站主要内容、词汇中性或积极
 
 ## 给网站添加备案信息
-找到footer.ejs文件，通常在`[本地博客文件夹根目录]/themes/[主题名]/layout/_partial/footer.ejs`
 
-打开footer.ejs文件，在合适的位置添加备案信息的html代码，例如
+找到 footer.ejs 文件，通常在`[本地博客文件夹根目录]/themes/[主题名]/layout/_partial/footer.ejs`
+
+打开 footer.ejs 文件，在合适的位置添加备案信息的 html 代码，例如
 
 ```js
 <footer id="footer">
@@ -77,20 +79,23 @@ keywords:
 beian: 浙ICP备xxxxxxxx号
 ```
 
-如果嫌麻烦直接在footer.ejs文件中写明就好，像下面这样。
+如果嫌麻烦直接在 footer.ejs 文件中写明就好，像下面这样。
 
 ```js
 <div>
-      <a href="https://beian.miit.gov.cn/" target="_blank">你的备案号</a>
+  <a href="https://beian.miit.gov.cn/" target="_blank">
+    你的备案号
+  </a>
 </div>
 ```
 
-## 给域名添加证书实现https
-这一步很简单，因为有非常厉害的工具 —— [certbot](https://certbot.eff.org/) , 可以自动申请证书，并修改你的服务器中间件(nginx|apache)的配置，开启SSL, 并且证书到期了还能给你自动更新，简直不要太方便。
+## 给域名添加证书实现 https
 
-当然，记得在运行certbot脚本前在云服务器的管理面板开启443端口用于SSL服务。
+这一步很简单，因为有非常厉害的工具 —— [certbot](https://certbot.eff.org/) , 可以自动申请证书，并修改你的服务器中间件(nginx|apache)的配置，开启 SSL, 并且证书到期了还能给你自动更新，简直不要太方便。
 
-进入[certbot官网](https://certbot.eff.org/)后，选择你的中间件和操作系统，接着稍稍等待页面的加载，下方就会出现相应的操作指引。
+当然，记得在运行 certbot 脚本前在云服务器的管理面板开启 443 端口用于 SSL 服务。
+
+进入[certbot 官网](https://certbot.eff.org/)后，选择你的中间件和操作系统，接着稍稍等待页面的加载，下方就会出现相应的操作指引。
 
 ![certbot](./certbot.png)
 
@@ -101,5 +106,3 @@ beian: 浙ICP备xxxxxxxx号
 接着跟着指引一步步来就行啦
 
 在浏览器输入你的域名，看看是否大功告成
-
-

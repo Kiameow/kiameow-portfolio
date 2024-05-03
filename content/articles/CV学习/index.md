@@ -7,19 +7,23 @@ banner:
   alt: "image description"
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
-  - "Setup"
-  - "Tutorial"
+  - "CV"
 keywords:
-  - "Example"
+  - "计算机视觉"
 ---
+
 ## Environment
+
 ### Toolkit1 -- Miniconda
+
 Download -- from tuna source
 
 ### What Conda does
+
 provides virtual environments for different projects, in order to avoid vesion confilct.
 
 ### Conda command
+
 - <strong>conda env list</strong> : check all environments
 - <strong>conda create -n your_env_name python=X.X</strong> : create a new environment
 - <strong>conda activate your_env_name</strong> : enter your environment
@@ -30,15 +34,19 @@ provides virtual environments for different projects, in order to avoid vesion c
 - <strong>conda remove -n your_env_name --all</strong> : remove environment
 
 ### Tookit2 -- Jupyter-Notebook
+
 Download -- !pip install jupyter
 
 ### What Jupyter does
+
 Jupyter is a powerful tool to conduct data analysis.
 
 ### What python module does CV need?
+
 nibabel(medical image), pillow(image process)
 
 ### What pyhton module does Data-Mining need?
+
 - scikit-learn
 - numpy
 - pandas
@@ -46,14 +54,17 @@ nibabel(medical image), pillow(image process)
 - lightgbm (data-mining model)
 
 ### Toolkit3 -- Pytorch
+
 Step1. Check your CUDA condition (CPU/GPU)
 Step2. Go to the official site, choose the approprite edition.
 Step3. Copy the command provided and run it.
 
 ### how do I know which version of CUDA is right for me?
+
 run command `nvidia-smi` (if you have a Nvidia GPU)
 
 ### Cloud environment
+
 百度飞桨 AI Studio
 阿里天池 PAI DSW
 Kaggle
@@ -63,12 +74,15 @@ Sagemaker Studio Lab
 ## File
 
 ### Import
+
 ```python
 import glob
-train_path = glob.glob('./脑PET图像分析和疾病预测挑战赛公开数据/Train/*/*') 
+train_path = glob.glob('./脑PET图像分析和疾病预测挑战赛公开数据/Train/*/*')
 test_path = glob.glob('./脑PET图像分析和疾病预测挑战赛公开数据/Test/*')
 ```
+
 ### Export
+
 ```python
 # /Test/*.nii
 test_path = glob.glob('./脑PET图像分析和疾病预测挑战赛公开数据/Test/*')
@@ -88,6 +102,7 @@ submit.to_csv('submit.csv', index=None)
 Nibabel is a low-level Python library that gives access to a variety of imaging formats, with a particular focus on providing a common interface to the various **volumetric** formats produced by scanners and used in common neuroimaging toolkits.
 
 ### Loading and Inspecting Images in Nibabel
+
 ```python
 img = nib.load('./脑PET图像分析和疾病预测挑战赛公开数据/Test/10.nii')
 print(img)
@@ -97,9 +112,10 @@ img = img.dataobj[:, :, :, 0] # turn nii to array-like object
 ## Numpy
 
 ### Randomly choose data
+
 ```python
 np.random.choice(a, size=None, replace=True, p=None)
-#Parameters:	
+#Parameters:
 #a : 1-D array-like or int
 #If an ndarray, a random sample is generated from its elements. If an int, the random sample is generated as if a were np.arange(a)
 
@@ -114,6 +130,7 @@ np.random.choice(a, size=None, replace=True, p=None)
 ```
 
 ### Conditionally choose data
+
 ```python
 numpy.where(condition)
 numpy.where(condition, x, y)
@@ -149,6 +166,7 @@ print(result)
 ```
 
 ### Reshape
+
 ```python
 import numpy as np
 
@@ -165,6 +183,7 @@ print(reshaped_arr)
 ```
 
 ### Count
+
 ```python
 from collections import Counter
 
@@ -181,7 +200,3 @@ print(counter_obj[2])  # 输出：3
 print(counter_obj.most_common(2))  # 输出：[(1, 3), (2, 3)]
 
 ```
-
-
-
-
