@@ -30,7 +30,8 @@
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Imprint", "url": "/imprint" },
+        { "label": "浙ICP备2023046775号", "url": "https://beian.miit.gov.cn/"}
       ]
     },
     "featureToggles": {
