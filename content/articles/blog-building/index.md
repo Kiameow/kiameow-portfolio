@@ -3,9 +3,9 @@ title: "部署hexo博客至云服务器"
 description: "This description will be used for the article listing and search results on Google."
 date: "2023-12-07"
 banner:
-  src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
-  alt: "image description"
-  caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
+  src: "../../images/hexo.png"
+  alt: "hexo"
+  caption: 'Photo by <u><a href="https://blog.getform.io/content/images/size/w2000/2019/10/hexo-cover-01-800x450-1.png">Hexo</a></u>'
 categories:
   - "博客"
   - "教程"
@@ -97,11 +97,8 @@ beian: 浙ICP备xxxxxxxx号
 
 进入[certbot 官网](https://certbot.eff.org/)后，选择你的中间件和操作系统，接着稍稍等待页面的加载，下方就会出现相应的操作指引。
 
-![certbot](./certbot.png)
-
-如下图，这里选的是`software--nginx` 和 `system--ubuntu20`
-
-![Alt text](./certbot2.png)
+如下图，这里选的是`software--apache` 和 `system--ubuntu20`
+![certbot](certbot.png)
 
 接着跟着指引一步步来就行啦
 

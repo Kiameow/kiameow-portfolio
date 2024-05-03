@@ -3,9 +3,9 @@ title: "Tracepath工具的使用"
 description: "This description will be used for the article listing and search results on Google."
 date: "2023-04-23"
 banner:
-  src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
+  src: "../../images/trace_path.jpg"
   alt: "image description"
-  caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
+  caption: 'Photo by <u><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redhat.com%2Fsysadmin%2Ftraceroute-tracepath-network-troubleshooting&psig=AOvVaw3_8HyqcymlhORgyqfl1xZh&ust=1714792994554000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjooe7D8IUDFQAAAAAdAAAAABAE">Red Hat</a></u>'
 categories:
   - "工具"
   - "教程"

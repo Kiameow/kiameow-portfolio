@@ -3,9 +3,9 @@ title: "Git基本操作"
 description: "This description will be used for the article listing and search results on Google."
 date: "2023-04-06"
 banner:
-  src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
+  src: "../../images/git.jpg"
   alt: "image description"
-  caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
+  caption: 'Photo by <u><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shiksha.com%2Fonline-courses%2Farticles%2Ftop-git-interview-questions-and-answers%2F&psig=AOvVaw3HU7PNTNGZo-jFRsHnvF96&ust=1714792841414000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjgqqPD8IUDFQAAAAAdAAAAABAQ">Git</a></u>'
 categories:
   - "Git"
   - "教程"

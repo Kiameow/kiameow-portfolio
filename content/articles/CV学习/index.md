@@ -8,6 +8,7 @@ banner:
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
   - "CV"
+  - "AI"
 keywords:
   - "计算机视觉"
 ---
@@ -200,3 +201,6 @@ print(counter_obj[2])  # 输出：3
 print(counter_obj.most_common(2))  # 输出：[(1, 3), (2, 3)]
 
 ```
+
+![alt text](image-1.png)
+![alt text](image.png)
